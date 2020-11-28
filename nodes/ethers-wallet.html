@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    RED.nodes.registerType('node-ethers-wallet', {
+        category: 'CollabLand',
+        color: '#fab2c5',
+        defaults: {
+            name: { value: "" }
+        },
+        inputs: 1,
+        outputs: 2,
+        paletteLabel: "Ethers Wallet",
+        icon: "cl-logo.png",
+        label: function () {
+            return this.name || "Ethers Wallet";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Ethers Wallet">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Ethers Wallet">
+    <p>A simple node that generats a new ether address and private key</p>
+</script>
