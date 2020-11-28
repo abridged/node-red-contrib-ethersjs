@@ -1,2 +1,2 @@
 # node-red-contrib-ethersjs
-ethers.io library wrapper for node-red
+ethers.io wrapper for node-red
