@@ -1,0 +1,31 @@
+{
+  "name": "node-red-contrib-ethersjs",
+  "version": "1.0.0",
+  "description": "ethers.io wrapper for node-red",
+  "main": "/examples/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "wallet": "./nodes/ethers-wallet.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abridged/node-red-contrib-ethersjs.git"
+  },
+  "keywords": [
+    "ethers",
+    "node-red"
+  ],
+  "author": "alokt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abridged/node-red-contrib-ethersjs/issues"
+  },
+  "homepage": "https://github.com/abridged/node-red-contrib-ethersjs#readme",
+  "dependencies": {
+    "ethers": "^5.0.19"
+  }
+}
